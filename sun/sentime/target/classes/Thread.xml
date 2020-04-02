@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="thread" parallel="tests" thread-count="3">
+    <test name = "threadTest">
+        <classes>
+    <class name="com.miss.testng.thread.MultThreadOnXml"></class>
+</classes>
+</test>
+    <test name = "threadTest1">
+        <classes>
+            <class name="com.miss.testng.thread.MultThreadOnXml_copy"></class>
+        </classes>
+    </test>
+</suite>

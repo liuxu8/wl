@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "suitename">
+    <test name ="RunAll">
+        <classes>
+            <class name ="com.miss.testng.groups.GroupOnClass_A"/>
+            <class name ="com.miss.testng.groups.GroupOnClass_B"/>
+            <class name ="com.miss.testng.groups.GroupOnClass_C"/>
+        </classes>
+    </test>
+
+    <test name ="OnlyRunStu">
+        <groups>
+            <run>
+                <include name ="students"/>
+            </run>
+        </groups>
+        <classes>
+            <class name ="com.miss.testng.groups.GroupOnClass_A"/>
+            <class name ="com.miss.testng.groups.GroupOnClass_B"/>
+            <class name ="com.miss.testng.groups.GroupOnClass_C"/>
+        </classes>
+    </test>
+</suite>

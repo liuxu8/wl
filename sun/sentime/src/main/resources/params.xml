@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parames">
+    <test name ="lvlvlv1">
+        <classes>
+            <parameter name = "name" value ="moon"/>
+            <parameter name = "age" value ="25"/>
+            <class name="com.miss.testng.params.ParamsTest"/>
+        </classes>
+    </test>
+</suite>
