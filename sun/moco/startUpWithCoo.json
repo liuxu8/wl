@@ -1,0 +1,38 @@
+[
+  {
+    "description": "模拟一个带cookies的get请求",
+    "request": {
+      "uri": "/get/coo",
+      "method": "get",
+      "cookies": {
+        "login": "liuxu"
+      }
+    },
+    "response": {
+      "text": "这可是一个带coo的get请求！!"
+    }
+  },
+  {
+    "description": "模拟一个带cookies的post请求",
+    "request": {
+      "uri": "/post/coo",
+      "method": "post",
+      "cookies": {
+        "login": "liuxu"
+      },
+      "json":{
+        "name":"moon",
+        "age":"25"
+
+      }
+    },
+    "response": {
+      "status":"200",
+      "json":{
+        "name":"moon",
+        "status":"1"
+
+      }
+    }
+  }
+]

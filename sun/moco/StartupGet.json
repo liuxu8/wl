@@ -1,15 +1,6 @@
 [
   {
-    "description":"模拟一个没有参数的get请求",
-    "request":{
-      "uri":"/GetDemo",
-      "method":"get"
-    },
-    "response":{
-      "text":"Hello World!",
-      "text":"这是一个没有参数的Get请求"
-    }
-  },{
+
   "description":"模拟一个有参数的get请求",
   "request":{
     "uri":"/GetParamDemo",
@@ -20,12 +11,8 @@
     }
   },
   "response":{
-    "text":"Hello Params!",
     "text":"这是一个有参数的Get请求"
   }
 
 }
-
-
-
-]
+  ]
